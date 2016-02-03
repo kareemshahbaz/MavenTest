@@ -10,6 +10,11 @@ public class TestData {
 		String testCase="TestA3";
 		int testrow = 1;
 		//test case start
+		
+		/*
+		 * 
+		 * added new statements
+		 */
 		while(!reader.getCellData(sheetName, 0, testrow).equalsIgnoreCase(testCase))
 		{
 			testrow++;
